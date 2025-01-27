@@ -1,0 +1,16 @@
+div{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 80px 290px 80px;
+}
+.grid{
+    width: auto;
+    border:1px solid;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}

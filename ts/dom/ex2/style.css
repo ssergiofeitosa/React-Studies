@@ -1,0 +1,24 @@
+.classeLight{
+    display: grid;
+    justify-items: center;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    background-color:white;
+    color:black;
+}
+.classeDark{
+    display: grid;
+    justify-items: center;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.switch{
+    
+    width: fit-content;
+}

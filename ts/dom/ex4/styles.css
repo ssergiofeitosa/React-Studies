@@ -1,0 +1,21 @@
+.img{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+div>button{
+    margin-top: 20px;
+    width: 100px;
+}
+img{
+    width: 30%;
+    height: auto;
+}
+.visible{
+    width: 30%;
+    height: auto;
+}
+.hidden{
+    width: 30%;
+    height: auto;
+    display: none;
+}

@@ -1,0 +1,18 @@
+
+
+
+
+
+.container{
+    max-width:400px;
+    padding: 10px;
+    border:1px solid  black;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-between;
+    justify-items: center;
+    
+}
+.contador{
+
+}

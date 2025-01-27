@@ -1,0 +1,31 @@
+HOOKS: o valor de um hooks TEM  quer ser constante durante toda a aplicação(hooks não devem entrar em condicionais)
+/////////////////////////
+1...useState
+
+const[state,setState]=useState("valor fixo")
+setState("posso setar um valor para state aqui")        setState((prevState)=>{operações para setar novo state})     //ao usar arrowfunction, devo passar o estado anterior como argumento
+
+/////////////////////////
+2...useEffect
+
+NÃO pode ser async
+dispara o código/função sempre que algum elemento da lista [dependências,etc,etc] "mudar/alterar valor"
+useEffect(() => { Código/função a ser executado}, [dependências]);
+useEffect(()=>{blabla},[])   a lista fazia faz com que esse useEffect seja "ativado" somente quando o componente for rederizado pela primeira vez
+
+
+/////////////////////////
+3...useRef
+guardar qtd de vezes que comp foi renderizado, guardar valor anterior de state, referenciar elemento html
+NÃO causa re-render e pode acessar diretamente o DOM(similar a document.querySelector)
+armazenar valores de estados anteriores
+
+
+ref.current
+
+
+
+/////////////////////////
+4...useReducer
+
+const[state,dispatch]=useReducer(reducer,estadoInicial)
