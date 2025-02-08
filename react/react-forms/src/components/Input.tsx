@@ -219,7 +219,7 @@ const Input: React.FC<InputProps> = ({
           <form action="">
             <select name="" id="" onChange={(e) => newsetCountry?.(e.target.value)}>
               {countries.map((country) => (
-                <option key={} value={country}>{country}</option>
+                <option key={country.key} value={country.key}>{country.select}</option>
               ))}
             </select>
           </form>
